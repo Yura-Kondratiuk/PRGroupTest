@@ -15,10 +15,7 @@ import com.example.prgrouptest.viewmodels.SplashViewModel
 
 class SplashFragment : Fragment(R.layout.fragment_splash) {
 
-
     private lateinit var viewModel: SplashViewModel
-
-    private val binding by viewBinding(FragmentSplashBinding::bind)
 
     override fun onCreateView(
         inflater: LayoutInflater,

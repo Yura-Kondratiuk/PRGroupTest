@@ -26,7 +26,7 @@ class SplashFragment : Fragment(R.layout.fragment_splash) {
         savedInstanceState: Bundle?
     ): View? {
         viewModel = SplashViewModel(requireActivity())
-        findNavController().popBackStack(R.id.fragment_splash, true)
+      //  findNavController().popBackStack(R.id.fragment_privacy_policy, true)
         return super.onCreateView(inflater, container, savedInstanceState)
     }
 

@@ -70,4 +70,5 @@ class WebViewFragment : Fragment(R.layout.fragment_web_view) {
             viewModel.saveUrl(url)
         }
     }
+
 }
